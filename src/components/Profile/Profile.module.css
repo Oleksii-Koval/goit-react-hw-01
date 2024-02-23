@@ -1,0 +1,78 @@
+.container {
+  padding: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  background-color: rgba(228, 255, 243, 0.751);
+  margin-bottom: 100px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.avatar {
+  display: block;
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.608) 4px 25px 20px -20px;
+  margin-bottom: 20px;
+}
+
+.userName {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 14px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -8px;
+}
+
+.userInfoText {
+  font-size: 18px;
+  font-weight: 500;
+  color: darkslateblue;
+  margin: 0;
+}
+
+.userLocation {
+  margin-top: 5px;
+  color: cadetblue;
+}
+
+.socialList {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  justify-content: center;
+  border-top: 2px solid black;
+}
+
+.socialListItem {
+  margin-top: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.socialItemTitle {
+  font-style: sans-serif;
+  font-weight: 500;
+  color: darkslateblue;
+}
+
+.socialItemText {
+  font-weight: 700;
+  color: rgb(38, 112, 53);
+}
